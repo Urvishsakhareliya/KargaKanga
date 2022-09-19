@@ -1151,20 +1151,94 @@ input:focus {
 
 .page4 #nav-tabContent .TeamUL {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .page4 #nav-tabContent .TeamUL .TeamItem {
-  padding: 1rem 5px;
+  padding: 1rem 4px;
   border: 1px solid var(--Color-Blue);
   border-radius: 10px;
+  width: calc(12.5% - 20px);
+  height: 240px;
+  text-align: center;
+  margin: 0 10px 20px 10px;
 }
 
 .page4 #nav-tabContent .TeamItem .team-Image {
-  height: 12rem;
-  width: 12rem;
+  height: 140px;
+  width: calc(100% - 10px);
   border: 1px solid var(--Color-Blue);
   border-radius: 10px;
   overflow: hidden;
+  margin: 0 auto;
+}
+
+.page4 #nav-tabContent .TeamItem .team-name {
+  font-size: 14px !important;
+}
+
+.page4 #nav-tabContent .TeamItem .team-details {
+  font-size: 10px;
+  font-style: italic;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.page4 #nav-tabContent .TeamItem .team-Opt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.page4 #nav-tabContent .TeamItem .optionList {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  transition: 0.3s;
+  margin: 0 1px;
+  padding: 1px;
+}
+
+.page4 #nav-tabContent .TeamItem .optionList:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.page4 #nav-tabContent .TeamItem .add-icon {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.page4 #nav-tabContent .TeamUL.border-bottom {
+  border-color: var(--Color-Blue) !important;
+}
+
+.page4 #nav-tabContent .TeamUL .Disabled-Items {
+  transform: scale(0.8);
+  opacity: 50%;
+  pointer-events: none;
+}
+
+.page4 #nav-tabContent .TeamUL .EkiptenAyril {
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+.page4 #nav-tabContent .TeamUL .EkiptenAyril a {
+  padding: 2rem 4rem;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid var(--Color-Blue);
+  border-radius: 10px;
+  width: 23rem;
+  color: var(--Color-Black);
+  font-weight: 500;
+  font-size: 1.8rem;
 }

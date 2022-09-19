@@ -21,6 +21,11 @@
   .information-Box {
     width: 80%;
   }
+
+  /* -------------- 10 - Page4 -------------- */
+  .page4 #nav-tabContent .TeamUL .TeamItem {
+    width: calc(16.6% - 20px);
+  }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -66,6 +71,12 @@
 
   .Yetenekler-Box {
     width: 60%;
+  }
+
+  /* -------------- 10 - Page4 -------------- */
+
+  .page4 #nav-tabContent .TeamUL .TeamItem {
+    width: calc(16.6% - 20px);
   }
 }
 
@@ -139,6 +150,11 @@
   .version-CardItems .version-content {
     min-height: 65rem;
   }
+
+  /* -------------- 10 - Page4 -------------- */
+  .page4 #nav-tabContent .TeamUL .TeamItem {
+    width: calc(20% - 20px);
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -149,6 +165,11 @@
   /* -------------- 03. Login Page -------------- */
   .loginForm {
     padding: 5rem 6rem 0 6rem;
+  }
+
+  /* -------------- 10 - Page4 -------------- */
+  .page4 #nav-tabContent .TeamUL .TeamItem {
+    width: calc(25% - 20px);
   }
 }
 
@@ -394,6 +415,11 @@
   .page4 .nav-tabs .nav-link:last-child {
     border-bottom: 0px;
   }
+
+  /* -------------- 10 - Page4 -------------- */
+  .page4 #nav-tabContent .TeamUL .TeamItem {
+    width: calc(33.33% - 20px);
+  }
 }
 @media screen and (max-width: 575px) {
   h3 {
@@ -525,5 +551,10 @@
   }
   .page4 .nav-tabs .nav-link:last-child {
     border-bottom: 0px;
+  }
+
+  /* -------------- 10 - Page4 -------------- */
+  .page4 #nav-tabContent .TeamUL .TeamItem {
+    width: calc(50% - 20px);
   }
 }
