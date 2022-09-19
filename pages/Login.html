@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+
+    <link rel="icon" type="image" href="../assets/images/logo.svg" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <section class="loginForm">
+      <div class="row justify-content-center justify-content-xxl-between">
+        <div
+          class="col-12 col-md-10 col-lg-6 col-xxl-5 order-1 order-lg-0 mt-5 mt-lg-0"
+        >
+          <div class="HOSGELDIN-Heading">
+            <h2>HOŞGELDİN!</h2>
+            <p>
+              Henüz hesabın yok mu?
+              <a href="Kayıt-ol.html" class="text-Blue">Kayıt ol</a>
+            </p>
+          </div>
+
+          <!-- Login Form -->
+          <form>
+            <div class="inputLabel">
+              <label for="Email" class="form-label text-Grey fw-500"
+                >E-mail</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="Email"
+                placeholder="kargakarga@karga.com"
+              />
+            </div>
+
+            <div class="inputLabel mb-4">
+              <label for="Şifre" class="form-label text-Grey fw-500">
+                Şifre
+              </label>
+              <div class="position-relative">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="Şifre"
+                  value="karr@kaga"
+                />
+                <img
+                  src="../assets/images/password-eye.svg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+
+            <div class="inputLabel text-end">
+              <a href="Link-Gonder.html" class="d-inline-block text-Blue fw-500">
+                Şifremi Unuttum?
+              </a>
+            </div>
+
+            <div class="login-radio form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="LoginRadio"
+                id="kabuldiyorum"
+              />
+              <label class="form-check-label text-Red" for="kabuldiyorum">
+                Gizlilik sözleşmesi, aydınlatma metni
+                <span class="text-Black">ve</span> yarışma şartnamesini
+                <span class="text-Black">okudum, anladım kabul diyorum.</span>
+              </label>
+            </div>
+
+            <div class="login-radio form-check mt-5">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="LoginRadio"
+                id="kabulediyorum"
+              />
+              <label class="form-check-label text-Red" for="kabulediyorum">
+                Açık rıza metnini okudum
+                <span class="text-Black">, aladım kabul ediyorum.</span>
+              </label>
+            </div>
+
+            <button class="Giri-Yap Theme-Btn">Giriş Yap</button>
+
+            <div class="continue-with">
+              <p>or continue with</p>
+            </div>
+
+            <button class="Google-btn">
+              <img src="../assets/images/google.svg" alt="" class="img-fluid" />
+            </button>
+          </form>
+        </div>
+
+        <div
+          class="col-12 col-lg-6 d-grid align-content-center justify-content-center order-0 order-lg-1"
+        >
+          <div class="Branding">
+            <img
+              src="../assets/images/logo-login.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jquery-3.6.0 -->
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Coustam js -->
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard4</title>
+
+    <link rel="icon" type="image" href="../assets/images/logo.svg" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+    <!-- Remixicon -->
+    <link rel="stylesheet" href="../assets/css/remixicon.css" />
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+  </head>
+
+  <body class="page4">
+    <div class="BackLayer d-lg-none"></div>
+    <div class="top-header text-center d-lg-none">
+      <i class="ri-menu-2-fill"></i>
+      <a href="#" class="nv-logos">
+        <img src="../assets/images/nav-logos.png" alt="" class="img-fluid" />
+      </a>
+    </div>
+    <section class="Dashboard">
+      <div id="NavbarLoad"></div>
+
+      <div class="hero-sec">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button
+              class="nav-link active"
+              id="nav-Ekibim-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-Ekibim"
+              type="button"
+              role="tab"
+              aria-controls="nav-Ekibim"
+              aria-selected="true"
+            >
+              Ekibim
+            </button>
+            <button
+              class="nav-link"
+              id="nav-BulundugumEkiplerim-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-BulundugumEkiplerim"
+              type="button"
+              role="tab"
+              aria-controls="nav-BulundugumEkiplerim"
+              aria-selected="false"
+            >
+              Bulunduğum Ekiplerim
+            </button>
+            <button
+              class="nav-link"
+              id="nav-EkipDavetlerim-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-EkipDavetlerim"
+              type="button"
+              role="tab"
+              aria-controls="nav-EkipDavetlerim"
+              aria-selected="false"
+            >
+              Ekip Davetlerim
+            </button>
+            <button
+              class="nav-link"
+              id="nav-TakimDavetlerim-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-TakimDavetlerim"
+              type="button"
+              role="tab"
+              aria-controls="nav-TakimDavetlerim"
+              aria-selected="false"
+            >
+              Takım Davetlerim
+            </button>
+          </div>
+        </nav>
+
+        <div class="tab-content" id="nav-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="nav-Ekibim"
+            role="tabpanel"
+            aria-labelledby="nav-Ekibim-tab"
+            tabindex="0"
+          >
+            <div class="MessageInfo">
+              <button class="MessageInfo-btn">
+                <img
+                  src="../assets/images/message.svg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </button>
+              <button class="MessageInfo-btn">
+                <img
+                  src="../assets/images/information.svg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </button>
+            </div>
+
+            <!-- <ul class="TeamUL">
+              <li class="TeamItem"></li>
+            </ul> -->
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-BulundugumEkiplerim"
+            role="tabpanel"
+            aria-labelledby="nav-BulundugumEkiplerim-tab"
+            tabindex="0"
+          >
+            2
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-EkipDavetlerim"
+            role="tabpanel"
+            aria-labelledby="nav-EkipDavetlerim-tab"
+            tabindex="0"
+          >
+            3
+          </div>
+          <div
+            class="tab-pane fade"
+            id="nav-TakimDavetlerim"
+            role="tabpanel"
+            aria-labelledby="nav-TakimDavetlerim-tab"
+            tabindex="0"
+          >
+            Takim Davetlerim
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jquery-3.6.0 -->
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Coustam js -->
+    <script src="../assets/js/script.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#NavbarLoad").load("Navbar.html");
+      });
+    </script>
+  </body>
+</html>
