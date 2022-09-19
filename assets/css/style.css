@@ -1156,7 +1156,15 @@ input:focus {
 }
 
 .page4 #nav-tabContent .TeamUL .TeamItem {
-  padding: 1rem;
-  border: 0.5px solid var(--Color-Blue);
+  padding: 1rem 5px;
+  border: 1px solid var(--Color-Blue);
   border-radius: 10px;
+}
+
+.page4 #nav-tabContent .TeamItem .team-Image {
+  height: 12rem;
+  width: 12rem;
+  border: 1px solid var(--Color-Blue);
+  border-radius: 10px;
+  overflow: hidden;
 }
