@@ -12,7 +12,9 @@
   07.  index/Dashboard
   08.  Dashboard2
   09.  Dashboard3
-  10.  Dashboard4
+  10.  Dashboard4 / Tabs & Modal
+  11.  Dashboard5 / Slider
+  11.  Dashboard6 / Space Category
   
    
    
@@ -1332,11 +1334,13 @@ input:focus {
   padding: 3rem;
 }
 
+#ReviewTeamModal .modal-header,
 #EkibiInceleModal .modal-header,
 #TeamModal .modal-header {
   border-bottom: 0;
 }
 
+#ReviewTeamModal .modal-dialog,
 #EkibiInceleModal .modal-dialog,
 #DavetGonderModal .modal-dialog,
 #TeamModal .modal-dialog {
@@ -1357,6 +1361,7 @@ input:focus {
   margin: 2.5rem 6px 0 6px;
 }
 
+#ReviewTeamModal .modal-title,
 #EkibiInceleModal .modal-title,
 #DavetGonderModal .modal-title {
   position: relative;
@@ -1364,6 +1369,7 @@ input:focus {
   color: var(--Color-Black);
 }
 
+#ReviewTeamModal .modal-title::after,
 #EkibiInceleModal .modal-title::after,
 #DavetGonderModal .modal-title::after {
   content: "";
@@ -1489,4 +1495,154 @@ input:focus {
 #DavetGonderModal .searchRow input:focus {
   outline: none;
   border-color: var(--Color-Black) !important;
+}
+
+#ReviewTeamModal .profileOption {
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#ReviewTeamModal .ReviewUser {
+  position: relative;
+}
+#ReviewTeamModal .ReviewUser-col .ReviewUser::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  height: 80%;
+  width: 1px;
+  background-color: var(--Color-Black);
+}
+
+#ReviewTeamModal .ReviewUser-col:last-child .ReviewUser:after {
+  display: none;
+}
+
+#ReviewTeamModal .ReviewUser.Disabled {
+  opacity: 50%;
+  pointer-events: none;
+}
+
+/* ============================================================= 
+                        11 - Page5 / Slider
+================================================================ */
+.slider-back {
+  background-color: #fff;
+}
+
+.sliderOwl,
+.sliderOwl .owl-stage,
+.sliderOwl .owl-stage .owl-item,
+.sliderOwl .owl-stage .owl-item .item,
+.sliderOwl .owl-stage-outer {
+  height: 100%;
+}
+
+.sliderOwl .owl-stage-outer .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderOwl .owl-nav .owl-prev,
+.sliderOwl .owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff !important;
+  border: 1px solid var(--Color-Blue) !important;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  font-size: 25px !important;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderOwl .owl-nav .owl-prev {
+  left: 2rem;
+}
+.sliderOwl .owl-nav .owl-next {
+  right: 2rem;
+}
+
+.sliderOwl .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sliderOwl .owl-dots .owl-dot span {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 4px;
+}
+
+.sliderOwl .owl-dots .owl-dot.active span {
+  background-color: var(--Color-Blue);
+}
+
+.sliderOwl .owl-dots .owl-dot:hover span {
+  background-color: var(--Color-Blue);
+}
+
+/* ============================================================= 
+                        12 - Page6 / Space Category
+================================================================ */
+
+.page6 .SpaceCategory-Back {
+  background-color: #fff;
+  padding: 5rem;
+}
+
+.page6 .UzayKategorisiUl {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.page6 .UzayKategorisiUl .UzayKategorisi-Item {
+  width: 32%;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 1.5rem;
+}
+
+.page6 .UzayKategorisiUl .UzayKategorisi-Item .Uzay-image {
+  height: 30rem;
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.page6 .UzayKategorisiUl .Uzay-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.page6 .UzayKategorisi-Item .UzayContent {
+  text-align: center;
+  color: var(--Color-Black);
+  margin: 1.5rem 0 0 0;
+}
+
+.page6 .UzayKategorisi-Item .Uzay-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  color: var(--Color-Black);
+  border: 1px solid var(--Color-Blue);
+  height: 5rem;
+  position: relative;
+  bottom: -4rem;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

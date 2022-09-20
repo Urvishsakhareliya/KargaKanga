@@ -158,8 +158,7 @@
                 </div>
               </li>
 
-              <li class="TeamItem" data-bs-toggle="modal"
-              data-bs-target="#EkibiInceleModal">
+              <li class="TeamItem">
                 <a href="#" class="add-icon">
                   <img
                     src="../assets/images/add-icon.png"
@@ -1259,7 +1258,11 @@
                   <img src="../assets/images/close.png" alt="" />
                   <p>Reddet</p>
                 </button>
-                <button class="portfolio-btn">
+                <button
+                  class="portfolio-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#EkibiInceleModal"
+                >
                   <img src="../assets/images/Ekibi-İncele.png" alt="" />
                   <p>Ekibi İncele</p>
                 </button>
@@ -1301,7 +1304,11 @@
                   <img src="../assets/images/close.png" alt="" />
                   <p>Reddet</p>
                 </button>
-                <button class="portfolio-btn">
+                <button
+                  class="portfolio-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#EkibiInceleModal"
+                >
                   <img src="../assets/images/Ekibi-İncele.png" alt="" />
                   <p>Ekibi İncele</p>
                 </button>
@@ -1351,7 +1358,11 @@
                   <img src="../assets/images/close.png" alt="" />
                   <p>Reddet</p>
                 </button>
-                <button class="portfolio-btn">
+                <button
+                  class="portfolio-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ReviewTeamModal"
+                >
                   <img src="../assets/images/Ekibi-İncele.png" alt="" />
                   <p>Ekibi İncele</p>
                 </button>
@@ -1393,7 +1404,11 @@
                   <img src="../assets/images/close.png" alt="" />
                   <p>Reddet</p>
                 </button>
-                <button class="portfolio-btn">
+                <button
+                  class="portfolio-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ReviewTeamModal"
+                >
                   <img src="../assets/images/Ekibi-İncele.png" alt="" />
                   <p>Ekibi İncele</p>
                 </button>
@@ -2597,7 +2612,7 @@
     </div>
 
     <div
-      class="modal d-block"
+      class="modal fade"
       id="EkibiInceleModal"
       tabindex="-1"
       aria-labelledby="EkibiInceleModalLabel"
@@ -3335,6 +3350,131 @@
                 </div>
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Takımı İncele => Review Team -->
+    <div
+      class="modal fade"
+      id="ReviewTeamModal"
+      tabindex="-1"
+      aria-labelledby="ReviewTeamModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ReviewTeamModalLabel">Takımı İncele</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-6 col-md-4 text-center ReviewUser-col">
+                <div class="ReviewUser">
+                  <p class="text-Black">1. Ekip Üyesi</p>
+
+                  <div class="userPhoto mx-auto mt-5">
+                    <img
+                      src="../assets/images/user-image.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <p class="text-Black mt-3">Deniz Can Ilgın</p>
+
+                  <div class="profileOption">
+                    <a href="#" class="optionList">
+                      <img
+                        src="../assets/images/coordinator.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </a>
+
+                    <a href="#" class="optionList">
+                      <img
+                        src="../assets/images/monitor-evaluator-1.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4 text-center ReviewUser-col">
+                <div class="ReviewUser">
+                  <p class="text-Black">2. Ekip Üyesi</p>
+
+                  <div class="userPhoto mx-auto mt-5">
+                    <img
+                      src="../assets/images/user-image.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <p class="text-Black mt-3">Deniz Can Ilgın</p>
+
+                  <div class="profileOption">
+                    <a href="#" class="optionList">
+                      <img
+                        src="../assets/images/coordinator.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </a>
+
+                    <a href="#" class="optionList">
+                      <img
+                        src="../assets/images/monitor-evaluator-1.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4 text-center ReviewUser-col">
+                <div class="ReviewUser Disabled">
+                  <p class="text-Black">3. Ekip Üyesi</p>
+
+                  <div class="userPhoto mx-auto mt-5">
+                    <img
+                      src="../assets/images/user-image.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <p class="text-Black mt-3">Deniz Can Ilgın</p>
+
+                  <div class="profileOption">
+                    <a href="#" class="optionList">
+                      <img
+                        src="../assets/images/coordinator.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </a>
+
+                    <a href="#" class="optionList">
+                      <img
+                        src="../assets/images/monitor-evaluator-1.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

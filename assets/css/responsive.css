@@ -89,6 +89,14 @@
   #TeamModal .modal-content {
     padding: 2rem;
   }
+
+  /* -------------- 11 - Page5 -------------- */
+  .page6 .SpaceCategory-Back {
+    padding: 3rem;
+  }
+  .page6 .UzayKategorisiUl .UzayKategorisi-Item .Uzay-image {
+    height: 25rem;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -173,6 +181,15 @@
 
   #TeamModal .modal-content {
     padding: 1.5rem;
+  }
+
+  /* -------------- 11 - Page5 -------------- */
+  .page6 .SpaceCategory-Back {
+    padding: 2rem;
+  }
+
+  .page6 .UzayKategorisiUl .UzayKategorisi-Item .Uzay-image {
+    height: 25rem;
   }
 }
 
@@ -389,6 +406,15 @@
   #TeamModal .NamePhoto {
     justify-content: center;
   }
+
+  /* -------------- 11. Page5 / Slider -------------- */
+  .sliderOwl,
+  .sliderOwl .owl-stage,
+  .sliderOwl .owl-stage .owl-item,
+  .sliderOwl .owl-stage .owl-item .item,
+  .sliderOwl .owl-stage-outer {
+    height: 80vh;
+  }
 }
 
 @media screen and (min-width: 575px) and (max-width: 767px) {
@@ -457,6 +483,14 @@
   #DavetGonderModal .modal-dialog,
   #TeamModal .modal-dialog {
     max-width: 100%;
+  }
+
+  #ReviewTeamModal .ReviewUser-col {
+    margin-bottom: 4rem;
+  }
+
+  #ReviewTeamModal .ReviewUser-col .ReviewUser:after {
+    display: none;
   }
 }
 @media screen and (max-width: 575px) {
@@ -623,5 +657,13 @@
   #DavetGonderModal .modal-dialog,
   #TeamModal .modal-dialog {
     max-width: 100%;
+  }
+
+  #ReviewTeamModal .ReviewUser-col .ReviewUser:after {
+    display: none;
+  }
+
+  #ReviewTeamModal .ReviewUser-col {
+    margin-bottom: 4rem;
   }
 }
