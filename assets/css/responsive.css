@@ -26,6 +26,9 @@
   .page4 #nav-tabContent .TeamUL .TeamItem {
     width: calc(16.6% - 20px);
   }
+  .page4 .modal .TeamUL .TeamItem {
+    width: calc(16.6% - 20px);
+  }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -77,6 +80,14 @@
 
   .page4 #nav-tabContent .TeamUL .TeamItem {
     width: calc(16.6% - 20px);
+  }
+
+  .page4 .modal .TeamUL .TeamItem {
+    width: calc(16.6% - 20px);
+  }
+
+  #TeamModal .modal-content {
+    padding: 2rem;
   }
 }
 
@@ -155,6 +166,14 @@
   .page4 #nav-tabContent .TeamUL .TeamItem {
     width: calc(20% - 20px);
   }
+
+  .page4 .modal .TeamUL .TeamItem {
+    width: calc(20% - 20px);
+  }
+
+  #TeamModal .modal-content {
+    padding: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -169,6 +188,9 @@
 
   /* -------------- 10 - Page4 -------------- */
   .page4 #nav-tabContent .TeamUL .TeamItem {
+    width: calc(25% - 20px);
+  }
+  .page4 .modal .TeamUL .TeamItem {
     width: calc(25% - 20px);
   }
 }
@@ -364,6 +386,9 @@
   .Portfolio-tab .Portfolio-Item {
     padding: 0 1.5rem;
   }
+  #TeamModal .NamePhoto {
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 575px) and (max-width: 767px) {
@@ -423,6 +448,15 @@
   /* -------------- 10 - Page4 -------------- */
   .page4 #nav-tabContent .TeamUL .TeamItem {
     width: calc(33.33% - 20px);
+  }
+
+  .page4 .modal .TeamUL .TeamItem {
+    width: calc(33.33% - 20px);
+  }
+
+  #DavetGonderModal .modal-dialog,
+  #TeamModal .modal-dialog {
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 575px) {
@@ -562,6 +596,10 @@
     width: calc(50% - 20px);
   }
 
+  .page4 .modal .TeamUL .TeamItem {
+    width: calc(50% - 20px);
+  }
+
   .Portfolio-tab .portfolio-btnGroup .portfolio-btn p {
     display: none;
   }
@@ -571,10 +609,6 @@
     justify-content: center;
   }
 
-  .Portfolio-tab .Portfolio-Item .PersonPortfolio {
-    text-align: end;
-    margin-bottom: 2rem;
-  }
   .Portfolio-tab .Portfolio-Item .PersonPortfolio a {
     padding: 5px 1rem;
     position: inherit;
@@ -584,5 +618,10 @@
 
   .Portfolio-tab .Portfolio-User h4 {
     font-size: 16px !important;
+  }
+
+  #DavetGonderModal .modal-dialog,
+  #TeamModal .modal-dialog {
+    max-width: 100%;
   }
 }

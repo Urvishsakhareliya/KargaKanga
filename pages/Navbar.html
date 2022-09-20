@@ -56,4 +56,11 @@
       </ul>
     </nav>
   </body>
+  <script>
+    $(".nav-link").click(function () {
+      $(".nav").removeClass("nav-Active");
+      $(".BackLayer").removeClass("BackLayer-Active");
+      $("body").removeClass("overflow-hidden");
+    });
+  </script>
 </html>

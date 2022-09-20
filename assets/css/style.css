@@ -1149,6 +1149,8 @@ input:focus {
   width: 10rem;
 }
 
+/* Team */
+
 .page4 #nav-tabContent .TeamUL {
   display: flex;
   /* justify-content: space-between; */
@@ -1314,4 +1316,177 @@ input:focus {
   color: #2a9206;
 }
 
+/* Modal */
+.btn-close {
+  box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  color: #000;
+  background-image: url(../images/modal-close-btn.png);
+  border: 0;
+  border-radius: 0.25rem;
+  opacity: 0.5;
+}
 
+#TeamModal .modal-content {
+  padding: 3rem;
+}
+
+#EkibiInceleModal .modal-header,
+#TeamModal .modal-header {
+  border-bottom: 0;
+}
+
+#EkibiInceleModal .modal-dialog,
+#DavetGonderModal .modal-dialog,
+#TeamModal .modal-dialog {
+  max-width: 80%;
+}
+
+#TeamModal .Yetenekler-Box {
+  width: 100%;
+}
+
+#DavetGonderModal .modal-footer button,
+#TeamModal .modal-footer button {
+  padding: 0 2rem;
+  border: 1px solid var(--Color-Blue);
+  height: 5rem;
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 2.5rem 6px 0 6px;
+}
+
+#EkibiInceleModal .modal-title,
+#DavetGonderModal .modal-title {
+  position: relative;
+  padding-left: 3rem;
+  color: var(--Color-Black);
+}
+
+#EkibiInceleModal .modal-title::after,
+#DavetGonderModal .modal-title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -1rem;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 2.5rem;
+  background-color: var(--Color-Blue);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.page4 .modal .TeamUL {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.page4 .modal .TeamUL .TeamItem {
+  padding: 1rem 4px;
+  border: 1px solid var(--Color-Blue);
+  border-radius: 10px;
+  width: calc(12.5% - 20px);
+  height: 240px;
+  text-align: center;
+  margin: 0 10px 20px 10px;
+}
+
+.page4 .modal .TeamItem .team-Image {
+  height: 140px;
+  width: calc(100% - 10px);
+  border: 1px solid var(--Color-Blue);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.page4 .modal .TeamItem .team-name {
+  font-size: 14px !important;
+}
+
+.page4 .modal .TeamItem .team-details {
+  font-size: 10px;
+  font-style: italic;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.page4 .modal .TeamItem .team-Opt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.page4 .modal .TeamItem .optionList {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  transition: 0.3s;
+  margin: 0 1px;
+  padding: 1px;
+}
+
+.page4 .modal .TeamItem .optionList:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.page4 .modal .TeamItem .add-icon {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.page4 .modal .TeamUL.border-bottom {
+  border-color: var(--Color-Blue) !important;
+}
+
+.page4 .modal .TeamUL .Disabled-Items {
+  transform: scale(0.8);
+  opacity: 50%;
+  pointer-events: none;
+}
+
+.page4 .modal .TeamUL .EkiptenAyril {
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.page4 .modal .TeamUL .EkiptenAyril a {
+  padding: 2rem 4rem;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid var(--Color-Blue);
+  border-radius: 10px;
+  width: 23rem;
+  color: var(--Color-Black);
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+#DavetGonderModal .searchRow {
+  margin-top: 30px;
+}
+
+#DavetGonderModal .searchRow input {
+  height: 5rem;
+  padding: 0 2rem;
+  border-radius: 15px;
+  border: 1px solid var(--Color-Black);
+
+  outline: none;
+}
+
+#DavetGonderModal .searchRow input:focus {
+  outline: none;
+  border-color: var(--Color-Black) !important;
+}
