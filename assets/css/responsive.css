@@ -415,6 +415,18 @@
   .sliderOwl .owl-stage-outer {
     height: 80vh;
   }
+
+  /* -------------- 11 - Page5 -------------- */
+  .page6 .SpaceCategory-Back {
+    padding: 2rem;
+  }
+  .page6 .UzayKategorisiUl .UzayKategorisi-Item {
+    width: 48%;
+  }
+
+  .page6 .UzayKategorisiUl .UzayKategorisi-Item .Uzay-image {
+    height: 25rem;
+  }
 }
 
 @media screen and (min-width: 575px) and (max-width: 767px) {
@@ -665,5 +677,11 @@
 
   #ReviewTeamModal .ReviewUser-col {
     margin-bottom: 4rem;
+  }
+
+  /* -------------- 11 - Page5 -------------- */
+
+  .page6 .UzayKategorisiUl .UzayKategorisi-Item {
+    width: 100%;
   }
 }
