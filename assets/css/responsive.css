@@ -360,6 +360,10 @@
   .page4 .nav-tabs {
     width: 100%;
   }
+
+  .Portfolio-tab .Portfolio-Item {
+    padding: 0 1.5rem;
+  }
 }
 
 @media screen and (min-width: 575px) and (max-width: 767px) {
@@ -556,5 +560,29 @@
   /* -------------- 10 - Page4 -------------- */
   .page4 #nav-tabContent .TeamUL .TeamItem {
     width: calc(50% - 20px);
+  }
+
+  .Portfolio-tab .portfolio-btnGroup .portfolio-btn p {
+    display: none;
+  }
+
+  .Portfolio-tab .portfolio-btnGroup .portfolio-btn {
+    min-width: 8rem;
+    justify-content: center;
+  }
+
+  .Portfolio-tab .Portfolio-Item .PersonPortfolio {
+    text-align: end;
+    margin-bottom: 2rem;
+  }
+  .Portfolio-tab .Portfolio-Item .PersonPortfolio a {
+    padding: 5px 1rem;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+  }
+
+  .Portfolio-tab .Portfolio-User h4 {
+    font-size: 16px !important;
   }
 }

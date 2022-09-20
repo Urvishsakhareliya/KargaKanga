@@ -1231,6 +1231,7 @@ input:focus {
   text-align: center;
   margin-top: 3rem;
 }
+
 .page4 #nav-tabContent .TeamUL .EkiptenAyril a {
   padding: 2rem 4rem;
   display: inline-block;
@@ -1242,3 +1243,75 @@ input:focus {
   font-weight: 500;
   font-size: 1.8rem;
 }
+
+.Portfolio-tab .Portfolio-Item {
+  padding: 0 2rem;
+  border: 1px solid var(--Color-Blue);
+  border-radius: 15px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.Portfolio-tab .Portfolio-Item .PersonPortfolio {
+  text-align: end;
+  margin: 1rem 0;
+}
+
+.Portfolio-tab .Portfolio-Item .PersonPortfolio a {
+  display: inline-block;
+  padding: 5px 2rem;
+  border: 1px solid var(--Color-Blue);
+  border-radius: 10px;
+  color: var(--Color-Blue);
+}
+
+.Portfolio-tab .Portfolio-User {
+  display: flex;
+  align-items: center;
+}
+
+.Portfolio-tab .Portfolio-User .user-image {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.Portfolio-tab .Portfolio-User .PortfolioUser-detais {
+  width: calc(100% - 8rem);
+  margin-left: 2rem;
+}
+
+.Portfolio-tab .portfolio-content {
+  margin: 2rem 0;
+}
+
+.Portfolio-tab .portfolio-btnGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2.5rem 0;
+}
+.Portfolio-tab .portfolio-btnGroup .portfolio-btn {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: #fff;
+  border: 1px solid var(--Color-Blue);
+  margin: 0 1rem;
+  border-radius: 10px;
+  min-width: 13rem;
+}
+
+.Portfolio-tab .portfolio-btnGroup .portfolio-btn p {
+  width: 90%;
+  margin-left: 1rem;
+}
+.Portfolio-tab .portfolio-btnGroup .portfolio-btn.Reddet {
+  color: #920606;
+}
+.Portfolio-tab .portfolio-btnGroup .portfolio-btn.Onayla {
+  color: #2a9206;
+}
+
+
