@@ -1561,6 +1561,7 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--Color-Blue) !important;
 }
 
 .sliderOwl .owl-nav .owl-prev {
@@ -1592,7 +1593,7 @@ input:focus {
 }
 
 /* ============================================================= 
-                        12 - Page6 / Space Category
+                    12 - Page6 / Space Category
 ================================================================ */
 
 .page6 .SpaceCategory-Back {
@@ -1646,4 +1647,56 @@ input:focus {
   background: #ffffff;
   border-radius: 15px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ============================================================= 
+                    13 - Page6 / Space Category
+================================================================ */
+.OwnTeam {
+  display: grid;
+  align-content: center;
+}
+
+.OwnTeamUL {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.OwnTeamUL::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--Color-Black);
+  opacity: 1;
+  width: 1px;
+  height: 100%;
+  z-index: 10;
+}
+
+.OwnTeamUL .OwnTeamLI {
+  width: 48%;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.OwnTeamUL .OwnTeamLI .teamImage {
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.OwnTeamUL .OwnTeamLI .teamContent {
+  margin-top: 3rem;
+  color: var(--Color-Black);
+}
+
+.Devamet-Btn {
+  width: 30rem;
+  margin: 5rem auto 0 auto;
 }

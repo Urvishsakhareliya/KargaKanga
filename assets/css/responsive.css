@@ -504,6 +504,26 @@
   #ReviewTeamModal .ReviewUser-col .ReviewUser:after {
     display: none;
   }
+
+  /* -------------- 12 - Page7 -------------- */
+  .OwnTeamUL {
+    display: block;
+  }
+
+  .OwnTeamUL::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 1px;
+  }
+
+  .OwnTeamUL .OwnTeamLI {
+    width: 100%;
+    border-radius: 10px;
+    margin: 2rem 0;
+    display: inline-block;
+  }
 }
 @media screen and (max-width: 575px) {
   h3 {
@@ -683,5 +703,25 @@
 
   .page6 .UzayKategorisiUl .UzayKategorisi-Item {
     width: 100%;
+  }
+
+  /* -------------- 12 - Page7 -------------- */
+  .OwnTeamUL {
+    display: block;
+  }
+
+  .OwnTeamUL::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 1px;
+  }
+
+  .OwnTeamUL .OwnTeamLI {
+    width: 100%;
+    border-radius: 10px;
+    margin: 2rem 0;
+    display: inline-block;
   }
 }

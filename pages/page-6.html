@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard6</title>
+
+    <link rel="icon" type="image" href="../assets/images/logo.svg" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+    <!-- Remixicon -->
+    <link rel="stylesheet" href="../assets/css/remixicon.css" />
+
+    <!-- owl Carousel -->
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css" />
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+  </head>
+
+  <body class="page6">
+    <div class="BackLayer d-lg-none"></div>
+    <div class="top-header text-center d-lg-none">
+      <i class="ri-menu-2-fill"></i>
+      <a href="#" class="nv-logos">
+        <img src="../assets/images/nav-logos.png" alt="" class="img-fluid" />
+      </a>
+    </div>
+    <section class="Dashboard">
+      <div id="NavbarLoad"></div>
+
+      <div class="hero-sec slider-back">
+        <div class="owl-carousel owl-theme sliderOwl">
+          <div class="item"><h2>1</h2></div>
+          <div class="item"><h2>2</h2></div>
+          <div class="item"><h2>3</h2></div>
+          <div class="item"><h2>4</h2></div>
+          <div class="item"><h2>5</h2></div>
+          <div class="item"><h2>6</h2></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jquery-3.6.0 -->
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="../assets/js/owl.carousel.min.js"></script>
+
+    <!-- Coustam js -->
+    <script src="../assets/js/script.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#NavbarLoad").load("Navbar.html");
+      });
+
+      $(".sliderOwl").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        navText: [
+          '<i class="ri-arrow-left-line"></i>',
+          '<i class="ri-arrow-right-line"></i>',
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
