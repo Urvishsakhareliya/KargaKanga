@@ -727,6 +727,14 @@ input:focus {
 
 /* #EgitimBilgileri MODAL */
 
+.modal {
+  z-index: 9990;
+}
+
+.modal-backdrop {
+  z-index: 9989;
+}
+
 .modal-content {
   border-radius: 3rem;
   padding: 1.5rem 0rem;
@@ -1369,6 +1377,14 @@ input:focus {
   color: var(--Color-Black);
 }
 
+#ReviewTeamModal .modal-body,
+#EkibiInceleModal .modal-body,
+#DavetGonderModal .modal-body,
+#TeamModal .modal-body {
+  height: 85vh;
+  overflow-y: auto;
+}
+
 #ReviewTeamModal .modal-title::after,
 #EkibiInceleModal .modal-title::after,
 #DavetGonderModal .modal-title::after {
@@ -1699,4 +1715,81 @@ input:focus {
 .Devamet-Btn {
   width: 30rem;
   margin: 5rem auto 0 auto;
+}
+
+/* ============================================================= 
+                    14 - Page8 / INNOVATION COMPETITION
+================================================================ */
+.InnovationBack {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.InnovationBack .MessageInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.InnovationBack .MessageInfo .MessageInfo-btn {
+  padding: 4px 0;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: 0;
+  margin: 0 2rem;
+  height: 5rem;
+  width: 10rem;
+}
+
+.InnovationBack .NovaTim-image {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.InnovationBack .ReviewUser-col {
+  margin-top: 3rem;
+}
+
+.InnovationBack .ReviewUser {
+  position: relative;
+  height: 100%;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; */
+}
+.InnovationBack .ReviewUser-col .ReviewUser::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  height: 80%;
+  width: 1px;
+  background-color: var(--Color-Black);
+}
+
+.InnovationBack .ReviewUser-col:last-child .ReviewUser::after {
+  display: none;
+}
+
+.InnovationBack .profileOption {
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.InnovationBack .userPhoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.InnovationBack .TakimiDaglt {
+  padding: 0 2rem;
+  border: 1px solid var(--Color-Blue);
+  height: 5rem;
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 5rem 6px 0 6px;
 }

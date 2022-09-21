@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard8</title>
+
+    <link rel="icon" type="image" href="../assets/images/logo.svg" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+    <!-- Remixicon -->
+    <link rel="stylesheet" href="../assets/css/remixicon.css" />
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+  </head>
+
+  <body class="page4">
+    <div class="BackLayer d-lg-none"></div>
+    <div class="top-header text-center d-lg-none">
+      <i class="ri-menu-2-fill"></i>
+      <a href="#" class="nv-logos">
+        <img src="../assets/images/nav-logos.png" alt="" class="img-fluid" />
+      </a>
+    </div>
+    <section class="Dashboard">
+      <div id="NavbarLoad"></div>
+
+      <div class="hero-sec InnovationBack">
+        <div class="MessageInfo">
+          <button class="MessageInfo-btn">
+            <img src="../assets/images/message.svg" alt="" class="img-fluid" />
+          </button>
+          <button class="MessageInfo-btn">
+            <img
+              src="../assets/images/information.svg"
+              alt=""
+              class="img-fluid"
+            />
+          </button>
+        </div>
+
+        <div class="NovaTim-image">
+          <img src="../assets/images/NOVATIM.png" alt="" class="img-fluid" />
+        </div>
+
+        <div class="row">
+          <div class="col-6 col-md-4 text-center ReviewUser-col">
+            <div class="ReviewUser">
+              <p class="text-Black">1. Ekip Üyesi</p>
+
+              <div class="userPhoto mx-auto mt-5">
+                <img
+                  src="../assets/images/user-image.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <p class="text-Black mt-3">Deniz Can Ilgın</p>
+
+              <div class="profileOption">
+                <a href="#" class="optionList">
+                  <img
+                    src="../assets/images/coordinator.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+
+                <a href="#" class="optionList">
+                  <img
+                    src="../assets/images/monitor-evaluator-1.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 text-center ReviewUser-col">
+            <div class="ReviewUser">
+              <p class="text-Black">2. Ekip Üyesi</p>
+
+              <div class="userPhoto mx-auto mt-5">
+                <img
+                  src="../assets/images/add-icon.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 text-center ReviewUser-col">
+            <div class="ReviewUser Disabled">
+              <div class="TeamItem">
+                <p class="text-Black">3. Ekip Üyesi</p>
+
+                <div class="userPhoto mx-auto mt-5">
+                  <img
+                    src="../assets/images/add-icon.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-auto d-flex">
+            <button class="TakimiDaglt" type="button">Takımı Dağıt</button>
+            <button class="TakimiDaglt" type="button">Başvuruyu Değiştir</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jquery-3.6.0 -->
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Coustam js -->
+    <script src="../assets/js/script.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#NavbarLoad").load("Navbar.html");
+      });
+    </script>
+  </body>
+</html>
