@@ -747,4 +747,13 @@
     height: 18rem;
     width: 15rem;
   }
+  /* -------------- 17 - Page10 -------------- */
+  .Teambuilding {
+    width: 250px;
+    padding: 1rem;
+  }
+
+  .Teambuilding .progress-box {
+    margin-top: 1rem;
+  }
 }
