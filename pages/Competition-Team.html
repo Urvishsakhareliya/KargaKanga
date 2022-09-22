@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Competition Team</title>
+
+    <link rel="icon" type="image" href="../assets/images/logo.svg" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+    <!-- Remixicon -->
+    <link rel="stylesheet" href="../assets/css/remixicon.css" />
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+  </head>
+
+  <body class="CompetitionTeam">
+    <div class="BackLayer d-lg-none"></div>
+    <div class="top-header text-center d-lg-none">
+      <i class="ri-menu-2-fill"></i>
+      <a href="#" class="nv-logos">
+        <img src="../assets/images/nav-logos.png" alt="" class="img-fluid" />
+      </a>
+    </div>
+    <section class="Dashboard">
+      <div id="NavbarLoad"></div>
+
+      <div class="hero-sec CompetitionTeamBack">
+        <div class="row justify-content-center text-center">
+          <div class="col-12">
+            <div class="message-image">
+              <img
+                src="../assets/images/Mesajin.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-xl-6 KargaKarga-col">
+            <form action="#">
+              <p class="text-Black KargaKarga-desc">
+                <a href="#" class="fw-500 text-Blue">KargaKarga’</a>ya hangi
+                konuda ulaşmak istiyorsun?
+              </p>
+
+              <div class="KargaKarga-input">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="YarismaEkibim"
+                  placeholder="Yarışma Ekibim"
+                />
+                <i class="ri-arrow-down-line"></i>
+              </div>
+
+              <div class="KargaKarga-textarea">
+                <label for="Mesajinizi_textarea" class="form-label"
+                  >Mesajın:</label
+                >
+                <textarea
+                  class="form-control"
+                  id="Mesajinizi_textarea"
+                  rows="10"
+                  placeholder="Mesajınızı giriniz"
+                ></textarea>
+              </div>
+
+              <div class="Gonder-btn">
+                <button type="submit">Gönder</button>
+              </div>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jquery-3.6.0 -->
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Coustam js -->
+    <script src="../assets/js/script.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#NavbarLoad").load("Navbar.html");
+      });
+    //   $(".KargaKarga-input .ri-arrow-down-line").click(function () {
+    //     var val = $("#YarismaEkibim").val();
+    //     var val2 = $("#Mesajinizi_textarea").val();
+    //     $("#Mesajinizi_textarea").val(val2 + val); 
+    //   });
+    </script>
+  </body>
+</html>

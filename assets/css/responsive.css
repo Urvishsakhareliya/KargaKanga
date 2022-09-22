@@ -427,6 +427,11 @@
   .page6 .UzayKategorisiUl .UzayKategorisi-Item .Uzay-image {
     height: 25rem;
   }
+
+  /* -------------- 17 - Page10 -------------- */
+  .SeniTanimiyorumBack {
+    height: 80vh;
+  }
 }
 
 @media screen and (min-width: 575px) and (max-width: 767px) {
@@ -755,5 +760,10 @@
 
   .Teambuilding .progress-box {
     margin-top: 1rem;
+  }
+
+  /* -------------- 17 - Page10 -------------- */
+  .Gonder-btn button {
+    width: 70%;
   }
 }
