@@ -10,14 +10,18 @@
   05.  Link Gönder
   06.  Şifremi Yenile
   07.  index/Dashboard
-  08.  Dashboard2
-  09.  Dashboard3
-  10.  Dashboard4 / Tabs & Modal
-  11.  Dashboard5 / Slider
-  11.  Dashboard6 / Space Category
-  11.  Dashboard6 / Space Category
-  11.  Dashboard6 / Space Category
-  11.  Dashboard6 / Space Category
+  08.  Dashboard2 / Chart
+  09.  Dashboard3 / Progress
+  10.  Page-4 / Tabs & Modal
+  11.  page-5 / Space Category
+  12.  Page-6 / Slider
+  13.  page-7 / Team Building
+  14.  Page-8 / INNOVATION COMPETITION
+  15.  page-9 / Leave Team
+  16.  page-10 / Create Team
+  17.  SeniTanimiyorum
+  18.  Şimdi Bul ve Ekle
+  19.  Competition Team
   
    
    
@@ -855,7 +859,7 @@ input:focus {
 }
 
 /* ============================================================= 
-                  07 - Dashboard2
+                  08 - Dashboard2 / Chart
 ================================================================ */
 
 .Dashboard2 .InsanlarinChat {
@@ -924,7 +928,7 @@ input:focus {
 }
 
 /* ============================================================= 
-                      09 - Dashboard3
+                  09 - Dashboard3 / Progress
 ================================================================ */
 .userHeading {
   padding: 2rem 4rem;
@@ -1115,7 +1119,7 @@ input:focus {
 }
 
 /* ============================================================= 
-                        10 - Page4
+                10 - Page4 / Tabs & Modal
 ================================================================ */
 .page4 .nav-tabs {
   width: 96%;
@@ -1220,7 +1224,7 @@ input:focus {
 .page4 #nav-tabContent .TeamItem .optionList {
   height: 30px;
   width: 30px;
-  border: 1px solid #e3e3e3;
+  /* border: 1px solid #e3e3e3; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1229,10 +1233,10 @@ input:focus {
   margin: 0 1px;
   padding: 1px;
 }
-
+/* 
 .page4 #nav-tabContent .TeamItem .optionList:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
+} */
 
 .page4 #nav-tabContent .TeamItem .add-icon {
   display: inline-block;
@@ -1392,7 +1396,7 @@ input:focus {
 #EkibiInceleModal .modal-body,
 #DavetGonderModal .modal-body,
 #TeamModal .modal-body {
-  height: 85vh;
+  max-height: 75vh;
   overflow-y: auto;
 }
 
@@ -1553,7 +1557,7 @@ input:focus {
 }
 
 /* ============================================================= 
-                        11 - Page5 / Slider
+                11 - Page5 / Space Category
 ================================================================ */
 .slider-back {
   background-color: #fff;
@@ -1620,7 +1624,7 @@ input:focus {
 }
 
 /* ============================================================= 
-                    12 - Page6 / Space Category
+                    12 - Page6 / Slider
 ================================================================ */
 
 .page6 .SpaceCategory-Back {
@@ -1677,7 +1681,7 @@ input:focus {
 }
 
 /* ============================================================= 
-                    13 - Page6 / Space Category
+                  13 - Page-7 / Team Building
 ================================================================ */
 .OwnTeam {
   display: grid;
@@ -1729,7 +1733,7 @@ input:focus {
 }
 
 /* ============================================================= 
-                    14 - Page8 / INNOVATION COMPETITION
+               14 - Page-8 / INNOVATION COMPETITION
 ================================================================ */
 .InnovationBack {
   background-color: #fff;
@@ -1803,10 +1807,11 @@ input:focus {
   background-color: #fff;
   border-radius: 6px;
   margin: 5rem 6px 0 6px;
+  color: var(--Color-Blue);
 }
 
 /* ============================================================= 
-                    17 - Page10 / Team Building
+                    16 - Page10 / Create Team
 ================================================================ */
 
 .Teambuilding {
@@ -1860,7 +1865,7 @@ input:focus {
 }
 
 /* ============================================================= 
-                    17 - Page10 / Team Building
+                    17 - SeniTanimiyorum
 ================================================================ */
 .SeniTanimiyorumBack {
   padding: 2rem;
@@ -1895,7 +1900,7 @@ input:focus {
 }
 
 /* ============================================================= 
-                    18 - Competition Team
+                    19 - Competition Team
 ================================================================ */
 
 .CompetitionTeamBack {
